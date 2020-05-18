@@ -1,0 +1,16 @@
+void enableLed(int lednr);
+void enableLeds(uint8_t leds);
+void enableAllLeds();
+void lightUpLed(int lednr);
+void lightUpLeds(uint8_t leds);
+void lightUpAllLeds();
+void lightDownLed(int lednr);
+void lightDownLeds(uint8_t leds);
+void flipLed(int led);
+void flashLed(int lednr, int duration);
+void fadeOutLed();
+void dimLed(int lednr, int percentage, int duration);
+void fadeInLed(int led, int duration);
+void fadeInLeds(uint8_t leds, int duration);
+void fadeOutLed(int led, int duration);
+void dimLeds(uint8_t leds, int percentage, int duration);
